@@ -136,9 +136,6 @@ public class MoviePlayer extends Application {
             }
         });
 
-
-        vbox.getChildren().add(slider);
-
         final HBox hbox = new HBox(2);
         final HBox hbox2 = new HBox(2);
         final int bands = player.getAudioSpectrumNumBands();
