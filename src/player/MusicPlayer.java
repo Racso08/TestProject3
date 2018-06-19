@@ -43,7 +43,7 @@ public class MusicPlayer extends Application {
         Group root = new Group();
 
         /**
-         * Simulacion del string que va a recibir del servidor
+         * Simulacion del string que va a recibir del servidorgit
          */
 
         Path path = Paths.get("/home/racso/Odessey/VideoPlayer/PorSiempre.mp3"); //cambiar el path de la cancion
