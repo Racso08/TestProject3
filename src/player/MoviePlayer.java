@@ -89,6 +89,7 @@ public class MoviePlayer extends Application {
         Button btn_pause = new Button();
         btn_pause.setText("Pause");
         btn_pause.setTranslateX(300);
+        btn_pause.setTranslateY(-20);
         btn_pause.setOnAction(new EventHandler<ActionEvent>() {
             @Override
             public void handle(ActionEvent event) {
@@ -99,6 +100,7 @@ public class MoviePlayer extends Application {
         Button btn_previous = new Button();
         btn_previous.setText("Previous");
         btn_previous.setTranslateX(0);
+        btn_previous.setTranslateY(-20);
         btn_previous.setOnAction(new EventHandler<ActionEvent>() {
             @Override
             public void handle(ActionEvent event) {
@@ -109,6 +111,7 @@ public class MoviePlayer extends Application {
         Button btn_next = new Button();
         btn_next.setText("Next");
         btn_next.setTranslateX(310);
+        btn_next.setTranslateY(-20);
         btn_next.setOnAction(new EventHandler<ActionEvent>() {
             @Override
             public void handle(ActionEvent event) {
@@ -119,6 +122,7 @@ public class MoviePlayer extends Application {
         Button btn_stop = new Button();
         btn_stop.setText("Stop");
         btn_stop.setTranslateX(290);
+        btn_stop.setTranslateY(-20);
         btn_stop.setOnAction(new EventHandler<ActionEvent>() {
             @Override
             public void handle(ActionEvent event) {
@@ -129,6 +133,7 @@ public class MoviePlayer extends Application {
         Button btn_play = new Button();
         btn_play.setText("Play");
         btn_play.setTranslateX(285);
+        btn_play.setTranslateY(-20);
         btn_play.setOnAction(new EventHandler<ActionEvent>() {
             @Override
             public void handle(ActionEvent event) {

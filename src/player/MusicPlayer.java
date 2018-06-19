@@ -31,6 +31,7 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.Base64;
+import java.util.Random;
 
 public class MusicPlayer extends Application {
     public static void main (String[] args) {
@@ -78,35 +79,44 @@ public class MusicPlayer extends Application {
         Button btn_pause = new Button();
         btn_pause.setText("Pause");
         btn_pause.setTranslateX(300);
+        btn_pause.setTranslateY(-20);
         btn_pause.setOnAction(event -> player.pause());
 
         Button btn_previous = new Button();
         btn_previous.setText("Previous");
         btn_previous.setTranslateX(0);
+        btn_previous.setTranslateY(-20);
         btn_previous.setOnAction(event -> player.seek(player.getCurrentTime().add(new Duration(-20000))));
 
         Button btn_next = new Button();
         btn_next.setText("Next");
         btn_next.setTranslateX(310);
+        btn_next.setTranslateY(-20);
         btn_next.setOnAction(event -> player.seek(player.getCurrentTime().add(new Duration(20000))));
 
         Button btn_stop = new Button();
         btn_stop.setText("Stop");
         btn_stop.setTranslateX(290);
+        btn_stop.setTranslateY(-20);
         btn_stop.setOnAction(event -> player.stop());
 
         Button btn_play = new Button();
         btn_play.setText("Play");
         btn_play.setTranslateX(285);
+        btn_play.setTranslateY(-20);
         btn_play.setOnAction(event -> player.play());
 
         final HBox hbox = new HBox(2);
         final HBox hbox2 = new HBox(2);
         final int bands = player.getAudioSpectrumNumBands();
         final Rectangle[] rects = new Rectangle[bands];
+        Random rand = new Random();
         for (int i = 0; i<rects.length;i++){
             rects[i] = new Rectangle();
-            rects[i].setFill(Color.LIGHTGRAY);
+            float r = rand.nextFloat();
+            float g = rand.nextFloat();
+            float b = rand.nextFloat();
+            rects[i].setFill(Color.color(r,g,b));
             hbox.getChildren().add(rects[i]);
 
         }
