@@ -2,12 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4be4d665-8563-4d38-93d9-3deedf52c5a1" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/VideoPlayer/player/MoviePlayer$10.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/VideoPlayer/player/MoviePlayer$10.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/VideoPlayer/player/MoviePlayer$11.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/VideoPlayer/player/MoviePlayer$11.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/VideoPlayer/player/MoviePlayer$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/VideoPlayer/player/MoviePlayer$8.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/VideoPlayer/player/MoviePlayer$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/VideoPlayer/player/MoviePlayer$9.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/VideoPlayer/player/MoviePlayer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/VideoPlayer/player/MoviePlayer.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/player/MoviePlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/player/MoviePlayer.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -32,11 +26,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MoviePlayer.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MoviePlayer.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/player/MoviePlayer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="243" selection-start-line="39" selection-start-column="4" selection-end-line="243" />
+            <state relative-caret-position="180">
+              <caret line="48" column="77" selection-start-line="48" selection-start-column="77" selection-end-line="48" selection-end-column="77" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1039#1040#0" expanded="true" />
@@ -60,11 +54,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MusicPlayer.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MusicPlayer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/player/MusicPlayer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="363">
-              <caret line="100" column="47" selection-start-line="100" selection-start-column="47" selection-end-line="100" selection-end-column="47" />
+            <state relative-caret-position="135">
+              <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#176#177#0" expanded="true" />
@@ -97,9 +91,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/Arboles/AVLTree.java" />
-        <option value="$PROJECT_DIR$/src/player/MoviePlayer.java" />
-        <option value="$PROJECT_DIR$/src/player/MoviePlayer.java" />
         <option value="$PROJECT_DIR$/src/player/MusicPlayer.java" />
+        <option value="$PROJECT_DIR$/src/player/MoviePlayer.java" />
+        <option value="$PROJECT_DIR$/src/player/MoviePlayer.java" />
       </list>
     </option>
   </component>
@@ -174,7 +168,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MusicPlayer">
+  <component name="RunManager" selected="Application.MoviePlayer">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="VideoPlayer" />
@@ -246,12 +240,12 @@
       <workItem from="1528931228560" duration="109000" />
       <workItem from="1529363551063" duration="3796000" />
       <workItem from="1529367948490" duration="567000" />
-      <workItem from="1529372597397" duration="7099000" />
+      <workItem from="1529372597397" duration="7518000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31763000" />
+    <option name="totallyTimeSpent" value="32182000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="732" extended-state="6" />
@@ -266,19 +260,19 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.28235295" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.28235295" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32941177" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32941177" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49882904" visible="true" weight="0.16312595" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49874687" visible="true" weight="0.16312595" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.26689774" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info id="Favorites" order="2" sideWeight="0.50117093" side_tool="true" visible="true" weight="0.16312595" />
+      <window_info id="Favorites" order="2" sideWeight="0.5012531" side_tool="true" visible="true" weight="0.16312595" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -542,10 +536,22 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Arboles/AVLTree.java" />
+    <entry file="file://$PROJECT_DIR$/src/player/MusicPlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#176#177#0" expanded="true" />
+            <element signature="e#204#205#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/player/MoviePlayer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="243" selection-start-line="39" selection-start-column="4" selection-end-line="243" />
+        <state relative-caret-position="180">
+          <caret line="48" column="77" selection-start-line="48" selection-start-column="77" selection-end-line="48" selection-end-column="77" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1039#1040#0" expanded="true" />
@@ -564,18 +570,6 @@
             <element signature="e#4248#4249#0" expanded="true" />
             <element signature="e#4509#4510#0" expanded="true" />
             <element signature="e#4554#4555#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/player/MusicPlayer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="100" column="47" selection-start-line="100" selection-start-column="47" selection-end-line="100" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#176#177#0" expanded="true" />
-            <element signature="e#204#205#0" expanded="true" />
           </folding>
         </state>
       </provider>
