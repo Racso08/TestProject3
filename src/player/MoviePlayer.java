@@ -168,6 +168,7 @@ public class MoviePlayer extends Application {
         player.setOnReady(new Runnable() {
             @Override
             public void run() {
+
                 int w = player.getMedia().getWidth();
                 int h = player.getMedia().getHeight();
 
