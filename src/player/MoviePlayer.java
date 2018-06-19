@@ -6,9 +6,11 @@ import javafx.animation.Timeline;
 import javafx.application.Application;
 import javafx.beans.value.ChangeListener;
 import javafx.beans.value.ObservableValue;
+import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
 import javafx.scene.Group;
 import javafx.scene.Scene;
+import javafx.scene.control.Button;
 import javafx.scene.control.Slider;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.HBox;
@@ -82,9 +84,63 @@ public class MoviePlayer extends Application {
         });
         final VBox vbox = new VBox();
         Slider slider = new Slider();
+
+
+        Button btn_pause = new Button();
+        btn_pause.setText("Pause");
+        btn_pause.setTranslateX(300);
+        btn_pause.setOnAction(new EventHandler<ActionEvent>() {
+            @Override
+            public void handle(ActionEvent event) {
+                player.pause();
+            }
+        });
+
+        Button btn_previous = new Button();
+        btn_previous.setText("Previous");
+        btn_previous.setTranslateX(0);
+        btn_previous.setOnAction(new EventHandler<ActionEvent>() {
+            @Override
+            public void handle(ActionEvent event) {
+                player.seek(player.getCurrentTime().add(new Duration(-20000)));
+            }
+        });
+
+        Button btn_next = new Button();
+        btn_next.setText("Next");
+        btn_next.setTranslateX(310);
+        btn_next.setOnAction(new EventHandler<ActionEvent>() {
+            @Override
+            public void handle(ActionEvent event) {
+                player.seek(player.getCurrentTime().add(new Duration(20000)));
+            }
+        });
+
+        Button btn_stop = new Button();
+        btn_stop.setText("Stop");
+        btn_stop.setTranslateX(290);
+        btn_stop.setOnAction(new EventHandler<ActionEvent>() {
+            @Override
+            public void handle(ActionEvent event) {
+                player.stop();
+            }
+        });
+
+        Button btn_play = new Button();
+        btn_play.setText("Play");
+        btn_play.setTranslateX(285);
+        btn_play.setOnAction(new EventHandler<ActionEvent>() {
+            @Override
+            public void handle(ActionEvent event) {
+                player.play();
+            }
+        });
+
+
         vbox.getChildren().add(slider);
 
         final HBox hbox = new HBox(2);
+        final HBox hbox2 = new HBox(2);
         final int bands = player.getAudioSpectrumNumBands();
         final Rectangle[] rects = new Rectangle[bands];
         for (int i = 0; i<rects.length;i++){
@@ -93,6 +149,12 @@ public class MoviePlayer extends Application {
             hbox.getChildren().add(rects[i]);
 
         }
+        hbox2.getChildren().add(btn_play);
+        hbox2.getChildren().add(btn_stop);
+        hbox2.getChildren().add(btn_pause);
+        hbox2.getChildren().add(btn_next);
+        hbox2.getChildren().add(btn_previous);
+        vbox.getChildren().add(hbox2);
         vbox.getChildren().add(hbox);
         root.getChildren().add(view);
         root.getChildren().add(vbox);
@@ -113,6 +175,7 @@ public class MoviePlayer extends Application {
                 int h = player.getMedia().getHeight();
 
                 hbox.setMinWidth(w);
+                hbox2.setMinWidth(w);
                 int bandWidth = w/rects.length;
                 for(Rectangle r:rects){
                     r.setWidth(bandWidth);
@@ -120,7 +183,7 @@ public class MoviePlayer extends Application {
                 }
 
                 stage.setMinWidth(w);
-                stage.setMinHeight(h);
+                stage.setMinHeight(h+100);
 
                 vbox.setMinSize(w,150);
                 vbox.setTranslateY(h-100);
@@ -157,13 +220,13 @@ public class MoviePlayer extends Application {
         player.currentTimeProperty().addListener(new ChangeListener<Duration>() {
             @Override
             public void changed(ObservableValue<? extends Duration> observable, Duration duration, Duration current) {
-                slider.setValue(current.toSeconds());
+                //slider.setValue(current.toSeconds());
             }
         });
         slider.setOnMouseClicked(new EventHandler<MouseEvent>() {
             @Override
             public void handle(MouseEvent event) {
-                player.seek(Duration.seconds(slider.getValue()));
+                //player.seek(Duration.seconds(slider.getValue()));
 
             }
         });
