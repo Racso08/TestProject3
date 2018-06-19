@@ -34,9 +34,14 @@ import java.util.Base64;
 
 
 public class MoviePlayer extends Application {
-    public static void main (String[] args) {
-        launch(args);
+
+    public static String encoded;
+
+    public void reproducir_mp4 (String data) {
+        encoded = data;
+        Application.launch();
     }
+
     @Override
     public void start (Stage stage) throws Exception{
         stage.setTitle("Odessey Movie Player");
@@ -45,12 +50,12 @@ public class MoviePlayer extends Application {
         /**
          * Simulacion del string que va a recibir del servidor
          */
-
+/*
         Path path = Paths.get("/home/racso/Odessey/VideoPlayer/Dimelo.mp4"); //cambiar el path de la cancion
         byte[] data = Files.readAllBytes(path);
         String encoded = Base64.getEncoder().encodeToString(data);
         //System.out.println(data.toString());
-
+*/
         /**
          * Inicio del metodo de reproducion apartir del string
          */

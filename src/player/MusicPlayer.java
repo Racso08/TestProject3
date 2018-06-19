@@ -34,9 +34,14 @@ import java.util.Base64;
 import java.util.Random;
 
 public class MusicPlayer extends Application {
-    public static void main (String[] args) {
-        launch(args);
+
+    public static String encoded;
+
+    public void reproducir_mp3 (String data) {
+        encoded = data;
+        Application.launch();
     }
+
     @Override
     public void start (Stage stage) throws Exception{
         stage.setTitle("Odessey Music Player");
