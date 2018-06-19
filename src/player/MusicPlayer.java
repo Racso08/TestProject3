@@ -113,10 +113,7 @@ public class MusicPlayer extends Application {
         Random rand = new Random();
         for (int i = 0; i<rects.length;i++){
             rects[i] = new Rectangle();
-            float r = rand.nextFloat();
-            float g = rand.nextFloat();
-            float b = rand.nextFloat();
-            rects[i].setFill(Color.color(r,g,b));
+            rects[i].setFill(Color.LIGHTGRAY);
             hbox.getChildren().add(rects[i]);
 
         }

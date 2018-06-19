@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4be4d665-8563-4d38-93d9-3deedf52c5a1" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/player/MoviePlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/player/MoviePlayer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/player/MusicPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/player/MusicPlayer.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -27,11 +26,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MoviePlayer.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MoviePlayer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/player/MoviePlayer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="122">
-              <caret line="134" column="16" selection-start-line="134" selection-start-column="16" selection-end-line="134" selection-end-column="16" />
+            <state relative-caret-position="-749">
+              <caret line="131" lean-forward="true" selection-start-line="131" selection-end-line="131" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1039#1040#0" expanded="true" />
@@ -55,11 +54,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MusicPlayer.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MusicPlayer.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/player/MusicPlayer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="99" column="8" selection-start-line="99" selection-start-column="8" selection-end-line="99" selection-end-column="36" />
+            <state relative-caret-position="180">
+              <caret line="115" column="44" selection-start-line="115" selection-start-column="44" selection-end-line="115" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#176#177#0" expanded="true" />
@@ -92,9 +91,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/Arboles/AVLTree.java" />
+        <option value="$PROJECT_DIR$/src/player/MoviePlayer.java" />
+        <option value="$PROJECT_DIR$/src/player/MoviePlayer.java" />
         <option value="$PROJECT_DIR$/src/player/MusicPlayer.java" />
-        <option value="$PROJECT_DIR$/src/player/MoviePlayer.java" />
-        <option value="$PROJECT_DIR$/src/player/MoviePlayer.java" />
       </list>
     </option>
   </component>
@@ -241,12 +240,12 @@
       <workItem from="1528931228560" duration="109000" />
       <workItem from="1529363551063" duration="3796000" />
       <workItem from="1529367948490" duration="567000" />
-      <workItem from="1529372597397" duration="8846000" />
+      <workItem from="1529372597397" duration="9195000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33510000" />
+    <option name="totallyTimeSpent" value="33859000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="732" extended-state="6" />
@@ -537,22 +536,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Arboles/AVLTree.java" />
-    <entry file="file://$PROJECT_DIR$/src/player/MusicPlayer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="99" column="8" selection-start-line="99" selection-start-column="8" selection-end-line="99" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#176#177#0" expanded="true" />
-            <element signature="e#204#205#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/player/MoviePlayer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="134" column="16" selection-start-line="134" selection-start-column="16" selection-end-line="134" selection-end-column="16" />
+        <state relative-caret-position="-749">
+          <caret line="131" lean-forward="true" selection-start-line="131" selection-end-line="131" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1039#1040#0" expanded="true" />
@@ -571,6 +558,18 @@
             <element signature="e#4248#4249#0" expanded="true" />
             <element signature="e#4509#4510#0" expanded="true" />
             <element signature="e#4554#4555#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/player/MusicPlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="115" column="44" selection-start-line="115" selection-start-column="44" selection-end-line="115" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#176#177#0" expanded="true" />
+            <element signature="e#204#205#0" expanded="true" />
           </folding>
         </state>
       </provider>
