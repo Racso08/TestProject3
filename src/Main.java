@@ -22,10 +22,18 @@ public class Main {
         String encoded = Base64.getEncoder().encodeToString(data);
         //System.out.println(data.toString());
 
+        /**
+         * Para reproducir un mp4
+         */
+
         //MoviePlayer player = new MoviePlayer();
         //player.reproducir_mp4(encoded);
 
-        MusicPlayer player = new MusicPlayer();
-        player.reproducir_mp3(encoded);
+        /**
+         * Ṕara reproducir un mp3
+         */
+
+        //MusicPlayer player = new MusicPlayer();
+        //player.reproducir_mp3(encoded);
     }
 }
